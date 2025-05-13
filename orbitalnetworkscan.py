@@ -1,7 +1,8 @@
 ###Find all devices on the network and print IP and MAC Address
 from scapy.all import ARP, Ether, srp
 
-target_ip = "192.168.56.1/24"
+###Adjust the target_ip to the network range to scan.
+target_ip = "192.168.1.1/24"
 arp = ARP(pdst=target_ip)
 ether = Ether(dst="ff:ff:ff:ff:ff:ff")
 packet = ether/arp
