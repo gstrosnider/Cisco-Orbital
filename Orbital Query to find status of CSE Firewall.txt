@@ -1,0 +1,10 @@
+Get-CimInstance -Namespace root/SecurityCenter2 -ClassName FirewallProduct
+
+
+displayName              : Cisco Secure Endpoint
+instanceGuid             : {2B4C7C4D-15C3-46FE-51DF-136207DC7C1D}
+pathToSignedProductExe   : C:\Program Files\Cisco\AMP\8.4.2.30317\cscm.exe
+pathToSignedReportingExe : C:\Program Files\Cisco\AMP\8.4.2.30317\cscm.exe
+productState             : 266240
+timestamp                : Thu, 24 Oct 2024 15:38:39 GMT
+PSComputerName           :

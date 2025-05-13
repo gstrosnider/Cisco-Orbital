@@ -1,0 +1,86 @@
+/opt/cisco/orbital/python/lib/python3.10/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+  
+  Please wait a moment while I gather a list of all available modules...
+
+  __future__          _threading_local    gettext             scapy
+  _abc                _tkinter            glob                sched
+  _aix_support        _tracemalloc        graphlib            secrets
+  _ast                _uuid               grp                 select
+  _asyncio            _warnings           gzip                selectors
+  _bisect             _weakref            hashlib             setuptools
+  _blake2             _weakrefset         heapq               shelve
+  _bootsubprocess     _xxsubinterpreters  hmac                shlex
+  _bz2                _xxtestfuzz         html                shutil
+  _codecs             _zoneinfo           http                signal
+  _codecs_cn          abc                 idlelib             site
+  _codecs_hk          aifc                idna                smtpd
+  _codecs_iso2022     antigravity         imaplib             smtplib
+  _codecs_jp          argparse            imghdr              sndhdr
+  _codecs_kr          array               imp                 socket
+  _codecs_tw          ast                 importlib           socketserver
+  _collections        asynchat            inspect             spwd
+  _collections_abc    asyncio             io                  sqlite3
+  _compat_pickle      asyncore            ipaddress           sre_compile
+  _compression        atexit              iptools             sre_constants
+  _contextvars        audioop             itertools           sre_parse
+  _crypt              base64              json                ssl
+  _csv                bdb                 keyword             stat
+  _ctypes             binascii            lib2to3             statistics
+  _ctypes_test        binhex              linecache           string
+  _curses             bisect              locale              stringprep
+  _curses_panel       builtins            logging             struct
+  _datetime           bz2                 lzma                subprocess
+  _dbm                cProfile            mailbox             sunau
+  _decimal            calendar            mailcap             symtable
+  _distutils_hack     certifi             marshal             sys
+  _elementtree        cgi                 math                sysconfig
+  _functools          cgitb               mimetypes           syslog
+  _hashlib            chardet             mmap                tabnanny
+  _heapq              chunk               modulefinder        tarfile
+  _imp                cmath               multiprocessing     telnetlib
+  _io                 cmd                 netrc               tempfile
+  _json               code                nntplib             termios
+  _locale             codecs              ntpath              test
+  _lsprof             codeop              nturl2path          textwrap
+  _lzma               collections         numbers             this
+  _markupbase         colorsys            opcode              threading
+  _md5                compileall          operator            time
+  _multibytecodec     concurrent          optparse            timeit
+  _multiprocessing    configparser        os                  tkinter
+  _opcode             contextlib          pathlib             token
+  _operator           contextvars         pdb                 tokenize
+  _osx_support        copy                pickle              trace
+  _pickle             copyreg             pickletools         traceback
+  _posixshmem         crypt               pip                 tracemalloc
+  _posixsubprocess    csv                 pipes               tty
+  _py_abc             ctypes              pkg_resources       turtle
+  _pydecimal          curses              pkgutil             turtledemo
+  _pyio               dataclasses         platform            types
+  _queue              datetime            plistlib            typing
+  _random             dbm                 poplib              unicodedata
+  _sha1               decimal             posix               unittest
+  _sha256             difflib             posixpath           urllib
+  _sha3               dis                 pprint              urllib3
+  _sha512             distutils           profile             uu
+  _signal             doctest             pstats              uuid
+  _sitebuiltins       email               pty                 venv
+  _socket             encodings           pwd                 warnings
+  _sqlite3            ensurepip           py_compile          wave
+  _sre                enum                pyclbr              weakref
+  _ssl                errno               pydoc               webbrowser
+  _stat               faulthandler        pydoc_data          wsgiref
+  _statistics         fcntl               pyexpat             xdrlib
+  _string             filecmp             queue               xml
+  _strptime           fileinput           quopri              xmlrpc
+  _struct             fnmatch             random              xxsubtype
+  _symtable           fractions           re                  zipapp
+  _sysconfigdata__linux_x86_64-linux-gnu ftplib              readline            zipfile
+  _testbuffer         functools           reprlib             zipimport
+  _testimportmultiple gc                  requests            zlib
+  _testinternalcapi   genericpath         resource            zoneinfo
+  _testmultiphase     getopt              rlcompleter         
+  _thread             getpass             runpy               
+
+  Enter any module name to get more help.  Or, type "modules spam" to search
+  for modules whose name or summary contain the string "spam".

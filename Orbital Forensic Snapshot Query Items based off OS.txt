@@ -1,0 +1,145 @@
+Windows:
+
+Windows NT Domains
+Background Activity Monitor Entries
+Hosts File Data
+SHA256 Hash Of Running Processes
+Mapped Drives
+Interface Names And Associated IPs
+System Network State
+Process Running Without A Binary On Disk
+Shared Resources
+Application Shims
+Logon Sessions
+Logged In Users
+Bitlocker Status Data
+PowerShell History
+Operating System Attributes
+Windows executables that automatically execute
+Windows AntiVirus Products Data
+Windows HotFixes
+Listening Ports
+Startup Items
+Installed Programs On Windows Host
+User Accounts
+Windows Prefetch Directory
+Network Profiles Registry Key
+Processes With Network Connections
+User Groups
+Loaded Modules Temp
+Loaded Modules Hashes Temp
+Loaded Modules Hashes
+Processes
+Loaded Module ID To Process ID
+USBSTOR Registry Key
+Scheduled Tasks
+Temp Directory Files
+DNS Cache Data
+Running Services Monitoring
+Trusted Root Certificates Monitoring
+Chrome Browser Extensions Monitoring
+Windows Environment Variables Monitoring
+UserAssist Registry Key Monitoring
+WMI CommandLineEventConsumer Monitoring
+WMI Event Filters Monitoring
+WMI ActiveScriptEventConsumer Monitoring
+Shim Cache
+Recently Opened Office Documents
+Windows ShellBags Content
+
+MacOS:
+
+Hosts File Data
+SHA256 Hash Of Running Processes
+Interface Names And Associated IPs
+Process Running Without A Binary On Disk
+Logged In Users
+Disk Encryption Status and Details
+Operating System Attributes
+Listening Ports
+Startup Items
+User Accounts
+USB Devices
+Processes With Network Connections
+User Groups
+System Mounted Devices and Filesystems
+Loaded Modules Temp
+Loaded Modules Hashes Temp
+Loaded Modules Hashes
+Processes
+Loaded Module ID To Process ID
+Wi-Fi Networks Data
+Account Policy Data
+Application Layer Firewall Service Exceptions
+ALF Services Allowed Networking
+Installed Applications Data
+ARPP Cache
+ASL System Events Data
+Authorization Rights Data
+Certificates
+Chrome Extensions
+System and User Crontab Data
+DNS Resolvers
+Installed Event Taps
+Kernel Extensions
+Keychain Items Data
+Known Hosts Data
+Logins/Logouts Data
+LaunchAgents and LaunchDaemons Data
+Managed Policies Data
+Package Install History Data
+Platform Information
+Process Environment Variables Data
+Shared Folders
+Shell History
+System Integrity Protection (SIP) Status
+SSH Configuration Data
+User SSH Keys Data
+Sudoers Data
+Writable Suid Binaries Data
+System Controls Settings
+Inventory System Information
+Time Machine Data
+XProtect Signatures
+XProtect Reports Data
+
+Linux:
+
+Hosts File Data
+SHA256 Hash Of Running Processes
+Interface Names And Associated IPs
+Logged In Users
+Disk Encryption Status and Details
+Operating System Attributes
+Listening Ports
+User Accounts
+USB Devices
+Processes With Network Connections
+User Groups
+System Mounted Devices and Filesystems
+Loaded Modules Temp
+Loaded Modules Hashes Temp
+Loaded Modules Hashes
+Processes
+Loaded Module ID To Process ID
+ARP Cache
+Chrome Browser Extensions Monitoring
+Crontab
+DNS Resolvers
+Services File
+Protocols File
+IP Tables Configuration Data
+Kernel Modules
+Known Hosts Data
+Logins/Logouts Data
+Platform Information
+Process Environment Variables Data
+Shadow File
+Shell History
+SSH Configuration Data
+Startup Items
+Sudoers Data
+Writable Suid Binaries Data
+System Information
+User SSH Keys Data
+Systemd Units

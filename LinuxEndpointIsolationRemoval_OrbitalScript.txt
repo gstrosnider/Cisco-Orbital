@@ -1,0 +1,9 @@
+import os
+import platform
+import sys
+
+os.system("iptables -F")
+os.system("iptables-restore < /root/iptables_rulesv4")
+os.system("systemctl restart firewalld")
+#Comment out the below command if firewalld is being used to manage the firewall in the environment.
+os.system("systemctl stop firewalld")
