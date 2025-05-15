@@ -1,3 +1,7 @@
+SELECT path, datetime(mtime, 'unixepoch') FROM file WHERE path LIKE "C:\Program Files\Cisco\AMP\tetra\plugins\%%";
+
+		List all Tetra Definitions by modification date.
+
 SELECT * from file where path = '/dev/ptmx0';
 	
 		Linux - Detects anything monitoring keystrokes that is using pseudo-terminal to  possibly allowing them to  determine effective length of an password being typed in.
