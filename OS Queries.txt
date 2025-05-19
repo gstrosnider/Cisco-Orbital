@@ -1,6 +1,6 @@
-SELECT path, datetime(mtime, 'unixepoch') FROM file WHERE path LIKE "C:\Program Files\Cisco\AMP\tetra\plugins\%%";
+SELECT path, datetime(mtime, 'unixepoch') as "Modified Time" FROM file WHERE path LIKE "C:\Program Files\Cisco\AMP\tetra\plugins\%%" order by mtime;
 
-		List all Tetra Definitions by modification date.
+		Lists and sorts all Tetra Definitions by modification date.
 
 SELECT * from file where path = '/dev/ptmx0';
 	
