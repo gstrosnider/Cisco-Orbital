@@ -123,7 +123,7 @@ def main():
 
     print("\nDump complete.")
     print(f"Output Folder: {BASE_DIR}")
-    print(f"ZP File: {ZIP_PATH}")
+    print(f"ZIP File: {ZIP_PATH}")
 
 if __name__ == "__main__":
     main()
@@ -131,7 +131,30 @@ if __name__ == "__main__":
 
 # Output Example
 ```
+Deleting instance \\DESKTOP-3BVGA43\ROOT\CIMV2:Win32_ShadowCopy.ID="{86B90750-05B9-4FC7-BE45-3938C2FDA3C8}"
+
+Instance deletion successful.
+
+Starting VSS-based registry dump...
+Creating shadow copy...
+Shadow copy created: {86B90750-05B9-4FC7-BE45-3938C2FDA3C8}
+Getting shadow device path...
+Shadow device: \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy5
+Copied SYSTEM
+Copied SOFTWARE
+Copied SAM
+Copied SECURITY
+Copied DEFAULT
+Searching for NTUSER.DAT...
+Copied NTUSER.DAT for user: Default
+Copied NTUSER.DAT for user: Default User
+Copied NTUSER.DAT for user: TestUser
+Creating password-protected ZIP...
+Created ZIP: C:\RegistryVSSDump\20250530_160054.zip
+Cleaning up shadow copy...
+Shadow copy deleted.
+
 Dump complete.
-Output Folder: C:\RegistryVSSDump\20250530_155340
-ZP File: C:\RegistryVSSDump\20250530_155340.zip
+Output Folder: C:\RegistryVSSDump\20250530_160054
+ZIP File: C:\RegistryVSSDump\20250530_160054.zip
 ```
