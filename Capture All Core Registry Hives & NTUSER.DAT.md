@@ -5,13 +5,13 @@ Zips Output with Basic Password Protection
 #Files it Captures:
 
 ```
-Hive/File	Path in Shadow Copy
-SYSTEM	Windows\System32\config\SYSTEM
-SOFTWARE	Windows\System32\config\SOFTWARE
-SAM	Windows\System32\config\SAM
-SECURITY	Windows\System32\config\SECURITY
-DEFAULT	Windows\System32\config\DEFAULT
-NTUSER.DAT	Users\<username>\NTUSER.DAT
+Hive/File	| Path in Shadow Copy
+SYSTEM |	Windows\System32\config\SYSTEM
+SOFTWARE	| Windows\System32\config\SOFTWARE
+SAM	| Windows\System32\config\SAM
+SECURITY	| Windows\System32\config\SECURITY
+DEFAULT |	Windows\System32\config\DEFAULT
+NTUSER.DAT |	Users\<username>\NTUSER.DAT
 ```
 
 #Orbital Script Code:
