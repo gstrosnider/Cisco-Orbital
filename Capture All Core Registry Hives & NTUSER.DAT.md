@@ -2,20 +2,20 @@ Uses Volume Shadow Copy
 Dumps All Core Registry Hives + NTUSER.DAT
 Zips Output with Basic Password Protection
 
-#Files it Captures:
+# Files it Captures:
 
 
-| Hive/File	| Path in Shadow Copy
-----------------------------------
-| SYSTEM | Windows\System32\config\SYSTEM|
-| SOFTWARE | Windows\System32\config\SOFTWARE|
-| SAM | Windows\System32\config\SAM|
-| SECURITY | Windows\System32\config\SECURITY|
-| DEFAULT | Windows\System32\config\DEFAULT|
-| NTUSER.DAT | Users\<username>\NTUSER.DAT|
+| Hive/File	    | Path in Shadow Copy                |
+|----------------|-----------------------------------|
+| SYSTEM         | Windows\System32\config\SYSTEM    |
+| SOFTWARE       | Windows\System32\config\SOFTWARE  |
+| SAM            | Windows\System32\config\SAM       |
+| SECURITY       | Windows\System32\config\SECURITY  | 
+| DEFAULT        | Windows\System32\config\DEFAULT   |
+| NTUSER.DAT     | Users\<username>\NTUSER.DAT       |
 
 
-#Orbital Script Code:
+# Orbital Script Code:
 
 ```
 import subprocess
@@ -129,10 +129,8 @@ if __name__ == "__main__":
     main()
 ```
 
-Output Example
-pgsql
-Copy
-Edit
+# Output Example
+```
 C:\RegistryVSSDump\20250529_154800\
 ├── SYSTEM.dat
 ├── SOFTWARE.dat
@@ -142,3 +140,4 @@ C:\RegistryVSSDump\20250529_154800\
 ├── NTUSER_<username>.dat
 ➕ Plus:
 RegistryVSSDump_20250529_154800.zip (ZipCrypto, password-protected)
+```
