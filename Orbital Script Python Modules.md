@@ -1,5 +1,5 @@
 Windows:
-
+```
 __future__
 _threading_local
 getpass
@@ -306,9 +306,10 @@ zoneinfo
 _thread
 getopt
 runpy
+```
 
-MacOS:
-
+# MacOS:
+```
 __future__
 _thread
 getpass
@@ -619,9 +620,10 @@ resource
 _testmultiphase
 getopt
 rlcompleter
+```
 
-Linux:
-
+## Linux:
+```
 __future__
 _tokenize
 gzip
@@ -951,3 +953,4 @@ scapy
 _tkinter
 grp
 sched
+```
