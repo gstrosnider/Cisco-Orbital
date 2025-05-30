@@ -1,34 +1,35 @@
-SELECT path, datetime(mtime, 'unixepoch') as "Modified Time" FROM file WHERE path LIKE "C:\Program Files\Cisco\AMP\tetra\plugins\%%" order by mtime;
+Lists and sorts all Tetra Definitions by modification date.
+		
+		SELECT path, datetime(mtime, 'unixepoch') as "Modified Time" FROM file WHERE path LIKE "C:\Program Files\Cisco\AMP\tetra\plugins\%%" order by mtime;
 
-		Lists and sorts all Tetra Definitions by modification date.
+Linux - Detects anything monitoring keystrokes that is using pseudo-terminal to  possibly allowing them to  determine effective length of an password being typed in.
 
-SELECT * from file where path = '/dev/ptmx0';
-	
-		Linux - Detects anything monitoring keystrokes that is using pseudo-terminal to  possibly allowing them to  determine effective length of an password being typed in.
-
-SELECT pid, name, ROUND((total_size * '10e-7'), 2) AS memory_used FROM processes ORDER BY total_size DESC LIMIT 10;
-
-		List all processes identifications and names in order by total memory size limited by 15 items.
+		SELECT * from file where path = '/dev/ptmx0';
+		
+List all processes identifications and names in order by total memory size limited by 15 items.
+		
+		SELECT pid, name, ROUND((total_size * '10e-7'), 2) AS memory_used FROM processes ORDER BY total_size DESC LIMIT 10;
 
 select * from apps where bundle_identifier = 'com.ht.RCSMac' or bundle_identifier like 'com.yourcompany.%' or bundle_package_type like 'OSAX';
 
 select * from launchd where label = 'com.ht.RCSMac' or label like 'com.yourcompany.%' or name = 'com.apple.loginStoreagent.plist' or name = 'com.apple.mdworker.plist' or name = 'com.apple.UIServerLogin.plist';
 
-select name,used_by from kernel_modules;
+Linux - List the kernel modules on Linux systems and what they are used by.
 
-		Linux - List the kernel modules on Linux systems and what they are used by.
+		select name,used_by from kernel_modules;
 
-select uid, username, directory from users LIMIT 50;
+Windows, MacOS, and Linux - Lists the user identification number, username, and directory for user.
 
-		Windows, MacOS, and Linux - Lists the user identification number, username, and directory for user.
+		select uid, username, directory from users LIMIT 50;
 
 SELECT * FROM hardware_events;
 
 SELECT md5 FROM hash WHERE path = '/etc/passwd';
 
-SELECT hostname, cpu_brand, cpu_physical_cores, cpu_logical_cores, physical_memory FROM system_info;
+List system name, CPU name, CPU counts, and memory count.
 
-		List system name, CPU name, CPU counts, and memory count.
+		SELECT hostname, cpu_brand, cpu_physical_cores, cpu_logical_cores, physical_memory FROM system_info;
+
 
 SELECT name, path, pid FROM processes WHERE on_disk = '0' or on_disk = '1';
 
