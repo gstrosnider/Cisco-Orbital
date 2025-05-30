@@ -131,13 +131,7 @@ if __name__ == "__main__":
 
 # Output Example
 ```
-C:\RegistryVSSDump\20250529_154800\
-├── SYSTEM.dat
-├── SOFTWARE.dat
-├── SAM.dat
-├── SECURITY.dat
-├── DEFAULT.dat
-├── NTUSER_<username>.dat
-➕ Plus:
-RegistryVSSDump_20250529_154800.zip (ZipCrypto, password-protected)
+Dump complete.
+Output Folder: C:\RegistryVSSDump\20250530_155340
+ZP File: C:\RegistryVSSDump\20250530_155340.zip
 ```
