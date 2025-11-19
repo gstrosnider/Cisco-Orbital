@@ -1,3 +1,10 @@
+```
+This script extracts Mozilla Firefox browsing history from the places.sqlite database.  
+It executes a query that retrieves visit timestamps, URLs, page titles, visit types, and referrer IDs, 
+then formats each record as a CSV-style line using SQLite’s printf() function. 
+Displays history in sorted chronological order (newest first).
+```
+
 import sqlite3
 import os
 from datetime import datetime
