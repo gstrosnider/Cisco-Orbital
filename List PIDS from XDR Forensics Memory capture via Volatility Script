@@ -1,0 +1,28 @@
+#List PIDS from XDR Forensics Memory capture via Volatility
+
+
+    
+import sys
+from pathlib import Path
+from volatility3.cli import CommandLine
+
+case_root = Path(r"{{ .XDRForensicsMemoryPath }}")
+
+if case_root.is_dir():
+    matches = list(case_root.rglob("ram-image.raw"))
+    if not matches:
+        raise FileNotFoundError(f"No ram-image.raw found under {case_root}")
+    dumppath = matches[0]
+else:
+    dumppath = case_root
+
+print(f"[+] Using memory image: {dumppath}")
+
+sys.argv = [
+    "vol",
+    "-q",
+    "-f", str(dumppath),
+    "windows.pslist",
+]
+
+CommandLine().run()
