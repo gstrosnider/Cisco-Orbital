@@ -1,7 +1,5 @@
 #List PIDS from XDR Forensics Memory capture via Volatility
 
-
-    
 import sys
 from pathlib import Path
 from volatility3.cli import CommandLine
