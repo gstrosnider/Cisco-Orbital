@@ -1,7 +1,5 @@
 ##Analyze memory dump using Volatility's malfind
 
-
-
 import sys
 from pathlib import Path
 from contextlib import redirect_stdout, redirect_stderr
